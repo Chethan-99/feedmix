@@ -1,1 +1,1 @@
-web: gunicorn feedmixer_wsgi:api --log-level=DEBUG --worker-class=gevent --forwarded-allow-ips="127.0.0.1"
+web: gunicorn feedmixer_wsgi:api --log-level=DEBUG --worker-class=gevent 
